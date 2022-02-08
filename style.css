@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'din-2014';
+    src: url(fonts/DIN2014-Regular.ttf) format(truetype) ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'din-2014', Helvetica, sans-serif;
+    background-image: url(imagem1.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    height: 86px;
+    align-content: flex-end;
+    background-color: transparent;
+
+}
+.container1, .container2 {
+    width:50% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+.container1__img {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container1__img img {
+    width: 100%;
+    max-width: 108px; 
+}
+
+.container1__topics, .container2__topics{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 70%;
+}
+
+.topics__a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
