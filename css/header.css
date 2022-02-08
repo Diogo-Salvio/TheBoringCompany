@@ -12,7 +12,7 @@
 
 body{
     font-family: 'din-2014', Helvetica, sans-serif;
-    background-image: url(images/imagem1.jpg);
+    background-image: url(../assets/images/imagem1.webp);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
