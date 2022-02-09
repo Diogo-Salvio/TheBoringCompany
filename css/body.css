@@ -1,0 +1,37 @@
+
+.vignette {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 30%, rgb(0, 0, 0) );
+    display: flex;
+}
+
+#format__parallax {
+    min-height: 400px;
+    background: transparent;
+}
+
+ .parallax__2{
+    width: 100vw;
+    height: 110vh;
+    
+}
+
+.parallax__1, .parallax__3, .parallax__4, .parallax__5 {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container__text {
+    padding-top: 550px;
+    padding-left: 85px;
+}
+
+.container__text > p {
+    display: flex;
+    color: white;
+    font-size: 21px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+

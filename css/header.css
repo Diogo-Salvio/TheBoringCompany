@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -16,27 +15,7 @@ body{
     overflow-x: hidden;
 }
 
-.vignette {
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 30%, rgb(0, 0, 0) );
 
-}
-
-#format__parallax {
-    min-height: 400px;
-    background: transparent;
-}
-
- .parallax__2{
-    width: 100vw;
-    height: 110vh;
-    
-}
-
-.parallax__1, .parallax__3, .parallax__4, .parallax__5 {
-    width: 100vw;
-    height: 100vh;
-
-}
 
 header {
     display: flex;
