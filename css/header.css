@@ -13,6 +13,7 @@
 
 body{
     font-family: 'din-2014', Helvetica, sans-serif;
+    overflow-x: hidden;
     /*background-image: url(../assets/images/imagem1.webp);
     background-position: center ;
     background-repeat: no-repeat;
@@ -20,6 +21,21 @@ body{
     width: 100vw;
     height: 100vh;
     */
+}
+
+#format__parallax {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax__1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    width: 100vw;
+    height: 90vh;
 }
 
 header {
