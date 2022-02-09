@@ -86,7 +86,7 @@ header {
     width: 0;
     left: 0;
     bottom: -3px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .topics__a:hover::after {
