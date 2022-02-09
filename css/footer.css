@@ -14,23 +14,28 @@ footer {
     margin-bottom: 60px;
 }
 
-.footer__container input {
+.footer__container .anchor{
     margin-top: 10px;
+    text-decoration: none;
     color: white;
     font-size: 14px;
     background-color: transparent;
-    padding: 15px 55px;
+    padding: 13px 40px;
     border: 1px white solid;
     border-radius: 25px;
     transition: 300ms; 
     margin-bottom: 45px;
 }
 
-.footer__container input:hover {
+.footer__container a:hover {
     color: rgb(194, 191, 191);
     border-color: #00ff00;
     cursor: pointer;
 }
+
+
+
+
 
 .footer__line {
     height: 1px;
@@ -40,7 +45,7 @@ footer {
 
 .footer__links {
     margin-top: 45px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .footer__links a {
