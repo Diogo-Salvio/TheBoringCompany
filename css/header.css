@@ -16,19 +16,26 @@ body{
     overflow-x: hidden;
 }
 
+.vignette {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 30%, rgb(0, 0, 0) );
+
+}
+
 #format__parallax {
     min-height: 400px;
     background: transparent;
 }
 
-.parallax__1 {
+ .parallax__2{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
+    
 }
 
-.parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+.parallax__1, .parallax__3, .parallax__4, .parallax__5 {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+
 }
 
 header {
