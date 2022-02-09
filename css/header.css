@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -27,27 +28,32 @@ header {
     align-content: flex-end;
     background-color: transparent;
     align-items: center;
+    padding: 0 80px;
 }
+
 .container1, .container2 {
     width:50% ;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     height: 65px;
 }
 
-
+.container2 {
+    justify-content: flex-end;
+    
+}
 
 .container1__img {
-    flex-basis: 30%;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 25px;
 }
 
 .container1__img img {
     width: 100%;
     max-width: 108px; 
+}
+
+.container1__topics {
+    margin-left: 37px;
 }
 
 .container1__topics, .container2__topics{
