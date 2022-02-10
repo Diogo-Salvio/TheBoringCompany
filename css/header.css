@@ -44,7 +44,8 @@ header {
 
 .container1__img img {
     width: 100%;
-    max-width: 108px; 
+    max-width: 90px; 
+    min-width: 90px;
 }
 
 .container1__topics {
@@ -88,4 +89,27 @@ header {
     width: 100%;
 }
 
+.nav__menu {
+    cursor: pointer;
+    display: none;
+}
+
+.nav__menu div{
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+
+@media (max-width: 999px) {
+    #nav__menu__itens {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 90vh;
+        background: black;
+        flex-direction: column;
+    }
+}
 

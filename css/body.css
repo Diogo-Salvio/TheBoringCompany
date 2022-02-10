@@ -33,6 +33,42 @@
     font-weight: 500;
 }
 
+.img__arrow {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.img__arrow img {
+    width: 55px;
+    height: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.img__arrow img:hover {
+    animation: jumping 1s linear infinite;
+}
+
+@keyframes jumping {
+    from { transform: translateY(7px);}
+    50% { transform: translateY(0);}
+    to { transform: translateY(7px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container__3 {
     padding-top: 500px;
     padding-left: 85px;
@@ -95,3 +131,5 @@
     width: 60%;
     height: 30%;
 } 
+
+
