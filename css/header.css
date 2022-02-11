@@ -109,10 +109,11 @@ header {
 
 @media (max-width: 999px) {
     #nav__menu__itens {
+        padding-top: 30px;
         position: absolute;
         top: 1vh;
         right: 0;
-        width: 80vw;
+        width: 90vw;
         height: 99vh;
         background: black;
         flex-direction: column;
@@ -120,6 +121,11 @@ header {
         transition: transform 0.3s ease-in;
 
     }
+
+    #nav__menu__itens.active {
+    transform: translateX(0);
+    }
+
 
 
 
@@ -131,7 +137,9 @@ header {
 
     .topics__a, .display__none{
         font-size: 17px;
+        display: flex;
         color: rgb(196, 196, 196);
+        padding-top: 15px;
     }
 
     .display__none {
