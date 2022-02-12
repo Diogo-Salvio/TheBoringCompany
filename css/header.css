@@ -35,7 +35,6 @@ header {
 
 .container2 {
     justify-content: flex-end;
-    
 }
 
 .container1__img {
@@ -64,6 +63,7 @@ header {
 
 .container2__topics {
     justify-content: right;
+    gap: 15px;
 }
 
 .topics__a, .display__none{
