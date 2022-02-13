@@ -15,8 +15,6 @@ body{
     overflow-x: hidden;
 }
 
-
-
 header {
     display: flex;
     height: 110px;
@@ -104,8 +102,6 @@ header {
 .display__none{
     display: none;
 }
-
-
 
 @media (max-width: 999px) {
     #nav__menu__itens {
