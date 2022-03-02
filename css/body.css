@@ -20,7 +20,7 @@
 }
 
 .container__text {
-    padding-top: 550px;
+    padding-top: 53vh;
     padding-left: 85px;
 }
 
@@ -55,16 +55,6 @@
     50% { transform: translateY(0);}
     to { transform: translateY(7px);}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,4 +121,15 @@
     height: 30%;
 } 
 
+ @media (max-width: 600px){
+    .container__text {
+        padding-top: 40vh;
+        padding-left: 5vw;
+    }
+    
+    .container__text > p {
+        font-size: 19px;
+        padding-top: 10px;
 
+    }
+}
